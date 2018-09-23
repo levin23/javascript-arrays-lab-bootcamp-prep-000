@@ -2,3 +2,7 @@
 destructivelyAppendKitten(name){
   kitten.push(name)
 }
+
+destructivelyAppendKitten(name){
+  kitten.push(name)
+}

@@ -15,7 +15,7 @@ destructivelyRemoveFirstKitten(){
   kitten.unshift()
 }
 
-destructivelyRemoveFirstKitten(){
+appendKitten(name){
   kitten.unshift()
 }
 

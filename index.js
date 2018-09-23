@@ -7,6 +7,10 @@ destructivelyPrependKitten(name){
   kitten.shift(name)
 }
 
-destructivelyPrependKitten(name){
-  kitten.shift(name)
+destructivelyRemoveLastKitten(){
+  kitten.pop()
+}
+
+destructivelyRemoveLastKitten(){
+  kitten.pop()
 }

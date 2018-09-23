@@ -3,6 +3,10 @@ destructivelyAppendKitten(name){
   kitten.push(name)
 }
 
-destructivelyAppendKitten(name){
-  kitten.push(name)
+destructivelyPrependKitten(name){
+  kitten.shift(name)
+}
+
+destructivelyPrependKitten(name){
+  kitten.shift(name)
 }

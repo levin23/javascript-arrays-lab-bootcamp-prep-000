@@ -24,11 +24,11 @@ prependKitten(name){
 }
 
 removeLastKitten(){
-  return kitten.slice(0,kitten.length-1)
+  return kitten.slice(0,kitten.length - 1)
 }
 
 removeFirstKitten(){
-  return kitten.pop()
+  return kitten.slice(1,kitten.length)
 }
 
 destructivelyRemoveFirstKitten(){

@@ -30,11 +30,3 @@ removeLastKitten(){
 removeFirstKitten(){
   return kitten.slice(1,kitten.length)
 }
-
-destructivelyRemoveFirstKitten(){
-  kitten.unshift()
-}
-
-destructivelyRemoveFirstKitten(){
-  kitten.unshift()
-}

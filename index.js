@@ -1,32 +1,32 @@
 // Add your functions and code here
-destructivelyAppendKitten(name){
+function destructivelyAppendKitten(name){
   kitten.push(name)
 }
 
-destructivelyPrependKitten(name){
+function destructivelyPrependKitten(name){
   kitten.shift(name)
 }
 
-destructivelyRemoveLastKitten(){
+function destructivelyRemoveLastKitten(){
   kitten.pop()
 }
 
-destructivelyRemoveFirstKitten(){
+function destructivelyRemoveFirstKitten(){
   kitten.unshift()
 }
 
-appendKitten(name){
+function appendKitten(name){
   return kitten.concat(name)
 }
 
-prependKitten(name){
+function prependKitten(name){
   return [...kitten, name]
 }
 
-removeLastKitten(){
+function removeLastKitten(){
   return kitten.slice(0,kitten.length - 1)
 }
 
-removeFirstKitten(){
+function removeFirstKitten(){
   return kitten.slice(1,kitten.length)
 }

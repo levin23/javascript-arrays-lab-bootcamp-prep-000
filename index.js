@@ -23,8 +23,8 @@ prependKitten(name){
   return [...kitten, name]
 }
 
-destructivelyPrependKitten(name){
-  kitten.shift(name)
+removeLastKitten(){
+  return kitten.slice(0,kitten.length-1)
 }
 
 destructivelyRemoveLastKitten(){

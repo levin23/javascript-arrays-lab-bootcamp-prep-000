@@ -19,8 +19,8 @@ appendKitten(name){
   return kitten.concat(name)
 }
 
-destructivelyAppendKitten(name){
-  kitten.push(name)
+prependKitten(name){
+  return [...kitten, name]
 }
 
 destructivelyPrependKitten(name){
